@@ -2,6 +2,7 @@
 SAR dataset for despeckling, including actual SAR images and ground truth.
 
 Procedure:
+
 0. Data Acquisition (ASF Vertex) https://search.asf.alaska.edu/#/.
     Select Scenes: Search and add the 5 Sentinel-1 granules to your cart at ASF Vertex.
     Export Script: In the "Selected Data" pane, click "Download Python Script".
