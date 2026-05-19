@@ -7,6 +7,8 @@ Procedure:
    Select Scenes: Search and add the 5 Sentinel-1 granules to your cart at ASF Vertex.
    Export Script: In the "Selected Data" pane, click "Download Python Script".
    Execute: Run the generated .py script to bulk download the .zip files (GRD-HD format).
+ To generate a new user token,
+Go to https://urs.earthdata.nasa.gov/ and login.
 2. You must have a SAR image in .tiff format downloaded from Sentinel-1. This script is made to rescale intensity in L1 Detected High-Res Dual-Pol (GRD-HD).
 3. Run the script 1. Rescale Intensity.py to rescale the intensity of an image. A new image with the name "_scaled.tiff" will be generated. It has to be done in every image.
 4. Image registration is recommended by using ORB as shown in https://pyimagesearch.com/2020/08/31/image-alignment-and-registration-with-opencv/ (Use 2. ImageRegistration.py)
